@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Blog de Café</title>
+
+<!--         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="site-header"> <!-- Colocare una imagen de fondo -->
+            <div class="contenedor"> <!-- Mantendra el contenido centrado -->
+                <div class="barra">
+                    <a href="#navegacion"> <!-- Logo que va al Home -->
+                        <h1 class="no-margin">Blog<span>DeCafé</span></h1>
+                    </a>
+                    <nav class="navegacion" id="navegacion">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                        </a>
+                        <a href="#contacto" class="opc">Contacto</a>
+                        <a href="#cursos" class="opc">Cursos</a>
+                        <a href="#blog" class="opc">Nuestro Blog</a>
+                        <!-- Icono menú hamburguesa para mobile -->
+
+                    </nav>
+                </div> <!-- barra -->
+                <div class="texto-header centrar-texto">
+                    <h2 class="no-margin">Las mejores recetas</h2>
+                    <p class="no-margin">Aprende de los expertos, sigue sus consejos</p>
+                </div>
+            </div>  
+        </header>
+
+        <div class="contenido-principal">         
+            <main class="blog centrar-texto contenedor" id="blog">
+                <h2 class="centrar-texto">Nuestro blog</h2>
+                <article class="entrada-blog">
+                    <div class="imagen">
+                        <img src="img/blog1.jpg" alt="Imagen blog">
+                    </div>
+                    <div class="contenido-blog centrar-texto">
+                        <h3>Tipos de granos de café</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <a href="entrada.html" class="btn btn-primario">Leer más</a>
+                    </div>
+                </article>
+                <article class="entrada-blog">
+                    <div class="imagen">
+                        <img src="img/blog2.jpg" alt="Imagen blog">
+                    </div>
+                    <div class="contenido-blog centrar-texto">
+                        <h3>Amantes del café</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        <a href="entrada.html" class="btn btn-primario">Leer más</a>
+                    </div>
+                </article>
+            </main> <!-- blog -->
+
+            <div class="cursos" id="cursos">
+                <h2 class="centrar-texto">Cursos</h2>
+                <div class="todos-cursos">
+                    <div class="entrada-curso centrar-texto">
+                        <h4>Prepara los mejores capuchinos</h4>
+                        <div class="contenido-curso">
+                            <img src="img/iconos/cappuccino.png" alt="Imagen curso" class="img-curso">
+                            <div class="texto-curso">
+                                <h5 class="precio">$250 - 20 personas</h5>
+                                <a href="cursos.html" class="btn btn-secundario">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entrada-curso centrar-texto">
+                        <h4>Cómo hacer un buen café negro</h4>
+                        <div class="contenido-curso">
+                            <img src="img/iconos/taza-cafe.png" alt="Imagen curso" class="img-curso">
+                            <div class="texto-curso">
+                                <h5 class="precio">$200 - 25 personas</h5>
+                                <a href="cursos.html" class="btn btn-secundario">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entrada-curso centrar-texto">
+                        <h4>Aprende a hcer un rísimo espresso</h4>
+                        <div class="contenido-curso">
+                            <img src="img/iconos/espresso.png" alt="Imagen curso" class="img-curso">
+                            <div class="texto-curso">
+                                <h5 class="precio">$220 - 22 personas</h5>
+                                <a href="cursos.html" class="btn btn-secundario">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- cursos -->
+        </div>
+        <div class="contacto centrar-texto" id="contacto">
+            <h2>Contacto</h2>
+            <div class="datos">
+                <p>blogdecafe@gmail.com</p>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter-square"></i></a>
+            </div>
+        </div> <!-- contacto -->
+        
+    </body>
+    <script src="js/app.js"></script>
+</html>
